@@ -3,13 +3,25 @@
 탐지기술의 강인성과 보안성 확인을 위한 고난도 변형 데이터베이스 구축을 위해 탐지 오류를 유발하는 adversarial data를 생성한다.
 
 ### Step1. 동영상을 이미지로 나타내기
-_video_2image.py_
+
+```
+video_2image.py
+```
+
 
 ### Step2. 얼굴 crop하기
-_extract_face.py_
+
+```
+extract_face.py
+```
+
 
 ### Step3. Adversarial attack적용하기
-_AE_method_attack_img.py_
+
+```
+AE_method_attack_img.py
+```
+
 
 ##### Adversarial Networks
 - 적대적으로 경쟁하는 생성기와 판별기를 통해 진본데이터와 매우 유사한 위조데이터를 생성하여 현실에 없는 새로운 데이터 생성, 새로운 형태로 데이터 변환, 데이터 품질 향상 등 새로운 기회 가능성 제시할 수 있게 한다.
