@@ -1,2 +1,0 @@
-attack_strength   :   0     auc    :    0.7610502584060427
-attack_strength   :   1     auc    :    0.7942616504262869
